@@ -1,0 +1,74 @@
+/* Css min-reset */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Main */
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    text-align: left;
+}
+
+.page {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+
+/* HEADER */
+
+.header {
+    background: #ff0000;
+    border: 1px solid rgb(0, 0, 0);
+    flex: 0 0 50px;
+    text-align: center;
+    font-size: 29px;
+}
+
+.main {
+    background: #c180ff;
+    display: flex;
+    max-height: calc(100vh - 50px - 100px);
+}
+
+
+/* Aside */
+
+.aside {
+    background: #ff813e;
+    border-right: 1px solid rgb(0, 0, 0);
+    flex: 0 0 200px;
+    overflow-y: auto;
+}
+
+
+/* Main content */
+
+.content {
+    overflow-y: auto;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #80c180;
+    border: 1px solid rgb(0, 0, 0);
+    padding-top: 25px;
+    flex: 0 0 100px;
+    font-size: 25px;
+    text-align: center;
+}
